@@ -1,4 +1,5 @@
 ---
+# Managed deployment test: GitHub -> Nest cPanel
 deployment:
   tasks:
     - export DEPLOYPATH=/home8/vetracom/vitavieclinic.com.np/
