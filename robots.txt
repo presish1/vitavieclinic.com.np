@@ -1,12 +1,5 @@
-# VITÀVIE Aesthetics & Anti-Aging — robots.txt
-# https://vitavie.com.np
-
 User-agent: *
 Allow: /
 Disallow: /gdrive_temp/
 
-# Sitemap
-Sitemap: https://vitavie.com.np/sitemap.xml
-
-# Crawl-delay (optional, for polite crawling)
-Crawl-delay: 1
+Sitemap: https://vitavieclinic.com.np/sitemap.xml

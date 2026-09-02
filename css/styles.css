@@ -1461,6 +1461,43 @@ body {
 
 
 
+.founder__koru {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: clamp(28px, 5vw, 72px);
+  padding: clamp(28px, 5vw, 72px);
+  border-top: 1px solid var(--border-strong);
+  border-bottom: 1px solid var(--border-strong);
+  background: rgba(248, 246, 242, 0.8);
+  scroll-margin-top: 100px;
+}
+.founder__koru h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: 1.25;
+  margin: 14px 0 24px;
+}
+.founder__koru p { color: var(--text-secondary); line-height: 1.8; margin-bottom: 18px; }
+.founder__koru-signature {
+  align-self: center;
+  padding-left: clamp(24px, 4vw, 56px);
+  border-left: 1px solid var(--border-strong);
+}
+.founder__koru-signature p { font-size: 12px; letter-spacing: 0.06em; }
+.founder__koru-signature h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--accent);
+  margin-bottom: 24px;
+}
+.founder__koru-signature a { text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 700px) {
+  .founder__koru { grid-template-columns: 1fr; }
+  .founder__koru-signature { padding: 24px 0 0; border-left: 0; border-top: 1px solid var(--border-strong); }
+}
+
 /* Co-founder Quote block */
 .founder__quote {
   border-left: 3px solid var(--accent);
